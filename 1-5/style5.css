@@ -1,0 +1,166 @@
+.wrapper{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 100px;
+    background-color: #141f40;
+}
+
+.white{
+    position: relative;
+    top: 20px;
+    left: 220px;
+    height: 60px;
+    width: 160px;
+    background-color: white;
+}
+
+.left{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: #a9004b;
+    width: 40px;
+    height: 40px;
+}
+
+.center{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    background-color: #a9004b;
+    width: 40px;
+    height: 40px;
+}
+
+.right{
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    background-color: #a9004b;
+    width: 40px;
+    height: 40px;
+}
+
+.green{
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.red{
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    float: right;
+
+}
+
+.orange{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    bottom: 40px;
+    right: 60px;
+
+}
+
+.top{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 120px;
+    background-color: #ff863f;
+    height: 50px;
+    width: 150px;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.center2{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    background-color: #ff863f;
+    height: 50px;
+    width: 150px;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.bottom{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    background-color: #ff863f;
+    height: 50px;
+    width: 150px;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.footer{
+    height: 100px;
+    background-color: #d98d30;
+    margin-top: 250px;
+}
+
+@media screen and (max-width: 479px){
+    .wrapper{
+        width: 200px;
+    }
+    .header{
+        height: 200px;
+    }
+    .white{
+        position: relative;
+        top: 20px;
+        left: 70px;
+        height: 160px;
+        width: 60px;
+    }
+
+    .left{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .center{
+        position: absolute;
+        top: 60px;
+        left: 10px;
+        width: 40px;  
+        height: 40px;  
+    }
+    .right{
+        position: absolute;
+        top: 110px;
+        left: 10px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .green, .red{
+        height: 210px;
+        width: 200px;
+        float: none;
+    }
+
+
+    .orange{
+        position: relative;
+        top: 20px;
+        left: 30px;
+    }
+
+    .footer{
+        margin-top: 0;
+    }
+
+    
+}
