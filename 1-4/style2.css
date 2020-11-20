@@ -69,6 +69,9 @@ clearfix::after{
     .wrapper{
         width: 150px;
     }
+    .left, .right{
+        height: 100px;
+    }
     .right, .left, .center-lower, .center-upper, .lower{
         float: none;
         width: 150px;
