@@ -1,0 +1,3 @@
+CakePHPの2系・3系の違い：CakePHP3系の方が使える機能が多く、拡張機構も優れている。
+LAMP：Linux, Apache, MySQL, PHPで構成された環境。
+AWS；クラウドコンピューティングを使ったサービスのこと。
