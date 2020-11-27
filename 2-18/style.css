@@ -1,0 +1,33 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    border-bottom: 2px white solid;
+}
+
+
+form{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text{
+    width: 100px;
+}
+
+p, h2{
+    text-align: center;
+    color: white;
+}
+
+.result{
+    margin-top: 50px;
+}
+
+
+
+
