@@ -1,5 +1,5 @@
 <?php
-require '/Applications/MAMP/htdocs/LetsEngineer/curriculum/3-3/bugTest/Test2/dbconnect.php';
+require 'dbconnect.php';
 // セッション開始
 session_start();
 include_once("dbconnect.php");
