@@ -1,5 +1,5 @@
 <?php 
-    require 'db_connect.php';
+    require_once 'db_connect.php';
     $dsn = sprintf('mysql: host=%s; dbname=%s; charset=utf8', 'localhost', 'yigroupblog');
     
     if(isset($_POST["signUp"])){
