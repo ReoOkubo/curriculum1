@@ -40,9 +40,7 @@
         <br><br>
         <input class="input" type="password" name="password" id="password" placeholder="パスワード"><br><br>
         <input class="login" type="submit" value="新規登録" id="signUp" name="signUp">
-    </form><br><br>
-    <form class="submit" action="Login.php">
-            <input class="return" type="submit" value="戻る">
     </form>
+    
 </body>
 </html>
