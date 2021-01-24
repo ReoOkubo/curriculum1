@@ -1,0 +1,11 @@
+
+.register{
+    background-color: blue;
+    border-radius: 0.05rem;
+    width: 150px;
+    color: white;
+}
+
+.select{
+    margin-top: 20px;
+}
